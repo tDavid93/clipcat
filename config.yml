@@ -1,0 +1,33 @@
+config:
+  models:
+    clip:
+      model_name: "ViT-B/32"
+    blip:
+      model_name: "Salesforce/blip2-opt-2.7b"
+  paths:
+    images: "img"
+    output: "output"
+
+
+    
+categories:
+  photos:
+    title: "Grafika logo"
+    description: "Képek számítógépes grafikával készített logókról."
+    english_description: "A digitally created logo featuring modern, computer-generated graphics."
+    path: "grafika/logo"
+  branding :
+    title: "Branding"
+    description: "Képek cégek, márkák logóiról. A logók a cégek arculatának fontos részét képezik."
+    english_description: "A logo representing a company or brand, designed to encapsulate its corporate identity."
+    path: "branding"
+  online:
+    title: "Online"
+    description: "Képek online szolgáltatásokról, weboldalakról."
+    english_description: "A visual depiction of an online service or website, highlighting digital interaction."
+    path: "online"
+  offline:
+    title: "Offline"
+    description: "Képek offline szolgáltatásokról, nyomtatott anyagokról."
+    english_description: "Images of printed materials or offline services, showcasing tangible media."
+    path: "offline"

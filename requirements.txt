@@ -1,0 +1,11 @@
+torch==1.7.1
+torchvision
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
+pandas
+Pillow
+pyyaml
+gradio
+transformers
