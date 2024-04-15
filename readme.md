@@ -14,7 +14,7 @@ To set up ClipCat, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/tDavid93/clipcat]
+git clone https://github.com/tDavid93/clipcat
 ```
 2. Install the required dependencies:
 ```bash
