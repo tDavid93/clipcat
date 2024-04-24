@@ -1,0 +1,35 @@
+config:
+  models:
+    clip:
+      model_name: "ViT-L/14"
+    blip:
+      model_name: "Salesforce/blip2-opt-2.7b"
+  paths:
+    images: "img"
+    output: "output"
+  formatting:
+    separator: '-'
+
+
+    
+categories:
+  photos:
+    title: "Photos"
+    description: "Photo of a thing, person, or place."
+    path: "photos"
+  logos:
+    title: "Logos"
+    description: "Logo of a company or brand."
+    path: "logos"
+  digital:
+    title: "Digital"
+    description: "Digital art, design, or interface."
+    path: "digital"
+  print:
+    title: "Print"
+    description: "Printed material or design."
+    path: "print"
+  illustrations:
+    title: "Illustrations"
+    description: "Illustration or drawing."
+    path: "illustrations"

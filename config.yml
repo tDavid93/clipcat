@@ -1,33 +1,94 @@
 config:
   models:
     clip:
-      model_name: "ViT-B/32"
+      model_name: "ViT-L/14"
     blip:
       model_name: "Salesforce/blip2-opt-2.7b"
   paths:
     images: "img"
     output: "output"
+  formatting:
+    separator: '-'
 
 
     
 categories:
-  photos:
-    title: "Grafika logo"
-    description: "Képek számítógépes grafikával készített logókról."
-    english_description: "A digitally created logo featuring modern, computer-generated graphics."
-    path: "grafika/logo"
-  branding :
-    title: "Branding"
-    description: "Képek cégek, márkák logóiról. A logók a cégek arculatának fontos részét képezik."
-    english_description: "A logo representing a company or brand, designed to encapsulate its corporate identity."
-    path: "branding"
-  online:
-    title: "Online"
-    description: "Képek online szolgáltatásokról, weboldalakról."
-    english_description: "A visual depiction of an online service or website, highlighting digital interaction."
-    path: "online"
-  offline:
-    title: "Offline"
-    description: "Képek offline szolgáltatásokról, nyomtatott anyagokról."
-    english_description: "Images of printed materials or offline services, showcasing tangible media."
-    path: "offline"
+  graphic_design:
+    title: "Graphic Design"
+    description: "A collage showcasing various graphic designs including a sleek logo, a vibrant brand identity set, and an eye-catching web interface, alongside an assortment of business cards and promotional flyers."
+    path: "graphic-design"
+
+  it_solutions:
+    title: "IT Solutions"
+    description: "A modern IT workspace filled with high-tech equipment and screens displaying software analytics and cloud data storage, symbolizing advanced IT solutions."
+    path: "it-solutions"
+
+  photography:
+    title: "Photography"
+    description: "An artistic display of diverse photography types: a glossy high-fashion model pose, a detailed close-up of a product, and a professional portrait set against a dynamic background."
+    path: "photography"
+
+  video_production:
+    title: "Video Production"
+    description: "A behind-the-scenes look at a film set, featuring a camera crew filming a dramatic scene with actors and high-tech cinematography equipment in action."
+    path: "video-production"
+
+  social_media_management:
+    title: "Social Media Management"
+    description: "A vibrant array of social media posts on a digital screen, showing interactive content, engaging social media graphics, and live audience analytics."
+    path: "social-media-management"
+
+  seo_copywriting:
+    title: "SEO & PR Writing"
+    description: "An open laptop with a blog post displayed, surrounded by notes on keyword research and analytics graphs, emphasizing SEO and PR writing."
+    path: "seo-copywriting"
+
+  translation_services:
+    title: "Translation & Proofreading"
+    description: "A desk covered with documents in multiple languages, a laptop displaying translation software, and a pair of glasses resting on a finished manuscript."
+    path: "translation-services"
+
+  advertising_campaigns:
+    title: "Advertising Campaigns"
+    description: "A creative meeting room with marketing professionals brainstorming around a table cluttered with campaign visuals, strategy documents, and digital ad mock-ups."
+    path: "advertising-campaigns"
+
+  service_design:
+    title: "Service Design"
+    description: "A flowchart diagram of service processes on a whiteboard, surrounded by a team of designers discussing and optimizing customer experience strategies."
+    path: "service-design"
+
+  organizational_development:
+    title: "Organizational Development"
+    description: "An office environment showing a workshop in session with business leaders and consultants using whiteboards and digital tools to strategize on organizational improvements."
+    path: "organizational-development"
+
+  financial_consulting:
+    title: "Financial Consulting"
+    description: "A sophisticated office setting where a financial advisor presents investment strategies on a large screen to clients, with graphs and financial documents on the table."
+    path: "financial-consulting"
+
+  atl_ttl_btl_marketing:
+    title: "ATL/TTL/BTL Marketing"
+    description: "A dynamic advertising studio with designers working on large billboards, digital ad displays, and direct mail pieces, showcasing various marketing strategies."
+    path: "atl-ttl-btl-marketing"
+
+  digital_graphics:
+    title: "Digital Graphics"
+    description: "A digital artist at work on a graphics tablet, designing vibrant digital art and animations that are displayed on multiple computer monitors."
+    path: "digital-graphics"
+
+  printed_graphics:
+    title: "Printed Graphics"
+    description: "A print studio with large printing presses running, producing colorful brochures, posters, and outdoor advertising materials."
+    path: "printed-graphics"
+
+  web_design:
+    title: "Web Design"
+    description: "A designer crafting a custom website on a computer, the screen showing a complex web design editor with code and preview panes."
+    path: "web-design"
+
+  event_photography_video:
+    title: "Event Photography & Video"
+    description: "A festive event scene with a photographer and videographer capturing smiling faces, decorated venues, and lively interactions among attendees."
+    path: "event-photography-video"
