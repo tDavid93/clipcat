@@ -14,7 +14,7 @@ To set up ClipCat, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone [https://github.com/tDavid93/clipcat]
 ```
 2. Install the required dependencies:
 ```bash
@@ -55,7 +55,7 @@ categories:
 To start the Gradio interface and begin categorizing images, run:
 
 Copy code
-python script_name.py
+python main.py
 This command launches an interactive web application where you can view and categorize images, cycle through the dataset, and confirm or adjust the categorizations made by the AI.
 
 ## Contributing

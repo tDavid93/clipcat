@@ -1,2 +1,5 @@
 *.ipynb
 .vscode/
+img/
+img másolata/
+*.pyc
